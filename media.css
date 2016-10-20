@@ -1,0 +1,282 @@
+@media screen and (max-width: 768px){
+	.technicalSupport {
+		display: none;
+	}
+
+	.wrap {
+		width: 100%;
+	}
+
+	.symbol span, .symbol img {
+		display: none;
+	}
+
+	.symbol {
+	    background-size: 9rem;
+    	background-position: 1rem 0.5rem;
+	}
+
+	nav {
+		display: none;
+		position: absolute;
+		top: 3.82rem;
+		left: 0;
+		width: 100%;
+	}
+
+	nav li {
+	    height: 3.41rem;
+    	width: 100%;
+    	display: list-item;
+		padding-top: 0.5rem;
+		font-size: 1rem;
+	}
+
+	#list {
+	    display: inline-block;
+	    width: 2rem;
+	    height: 2rem;
+	    border: 1px solid #e4e4e4;
+	    margin-top: 0;
+	    margin-right: 15px;
+        outline: none;
+	}
+
+	.chart .wrap {
+        width: 88%;
+		height: 18.06rem;
+		margin: 0 auto;
+	    background-image: url(林信首页/companyName.png),url(林信首页/资源%2012.png);
+        background-size: 37%,100%;
+		background-repeat: no-repeat;
+		background-position-y: 2rem,5rem;
+		background-position-x: 6rem,0rem;
+	}
+
+	.menu {
+	    width: 100%;
+    	height: 24rem;
+	}
+
+	.flexWrap {
+	    width: 21rem;
+		margin: auto;
+		background-color: transparent;
+		display: block;
+		text-align: center;
+	}
+
+	.flexWrap>div {
+		width: 9.59rem;
+	    height: 9.59rem;
+	    background-color: RGB(242,247,252);
+	    padding-top: 2rem;
+	    position: relative;
+        display: inline-block;
+		margin-top: 0.5rem;
+	}
+
+	.flexWrap div img {
+	    margin-left: 0;
+	}
+
+	.flexWrap div p:last-of-type {
+	    margin-top: 0.5rem;
+	}
+
+	.title span {
+	    margin-top: 0.5rem;
+	    display: inline-block;
+        font-size: 1rem;
+	}
+
+	/*=========================================================*/
+
+	.businessIntroduction {
+	    height: 22rem;
+	}
+
+	.businessIntroduction p:not(.mobile) {
+	    display: none;
+	}
+
+	p.mobile {
+	    display: block;
+    	margin-top: 1rem;
+    	font-size: 0.8rem;
+	}
+
+	.businessIntroduction .left {
+	    float: none;
+	    position: static;
+	    left: 0;
+	    margin: 0 auto;
+	}
+
+	.businessIntroduction .right,.companyProfile .left {
+	    width: 20.35rem;
+	    float: none;
+	    margin: 0 auto;
+	    margin-top: 2.35rem;
+	}
+
+	.businessIntroduction h4, .companyProfile h4 {
+	    font-size: 1rem;
+	    text-align: center;
+	}
+
+	.companyProfile {
+	    height: 22rem;
+	}
+
+	.companyProfile .right {
+		margin: 0 auto;
+	    float: none;
+	    background-size: 100% 100%;
+	    position: static;
+	    right: 0;
+	}
+
+	.companyProfile p:not(.mobile) {
+	    display: none;
+	}
+
+	#cooperateCompany, #weChat {
+		display: none;
+	}
+
+	#contactInformation {
+        width: 100%;
+   	 	text-align: center;
+	}
+
+	#contactInformation h6 {
+		font-size: 0.8rem;
+	}
+
+	#contactInformation p:nth-child(3), 
+	#contactInformation p:nth-last-child(1), 
+	#contactInformation p:nth-last-child(2), 
+	#contactInformation p:nth-last-child(3){
+		display: none;
+	}
+
+	#contactInformation p:nth-child(2),#contactInformation p:nth-child(4) {
+		display: inline-block;
+		font-size: 0.8rem;
+	    color: rgb(95,95,95);
+	}
+
+	#contactInformation p:nth-child(2) {
+	    padding-right: 1rem;
+	}
+
+	footer {
+	    background-color: #cccccc;
+	    color: #878787;
+	}
+
+	footer .wrap {
+	    background: url("");
+	    background-repeat: no-repeat;
+	}
+
+	footer p {
+	    font-size: 0.8rem;
+	    line-height: 1rem;
+	    padding: 0.6rem;
+	}
+		
+}
+
+@media screen and (max-width: 320px){
+	.businessIntroduction,.companyProfile,.technicalSupport,.information, footer {
+		display: none;
+	}
+
+	.wrap {
+		width: 100%;
+	}
+
+	.symbol span, .symbol img {
+		display: none;
+	}
+
+	.symbol {
+	    background-size: 9rem;
+    	background-position: 1rem 0.5rem;
+	}
+
+	nav {
+		display: none;
+		position: absolute;
+		top: 3.82rem;
+		left: 0;
+		width: 100%;
+	}
+
+	nav li {
+	    height: 3.41rem;
+    	width: 100%;
+    	display: list-item;
+		padding-top: 0.5rem;
+		font-size: 1rem;
+	}
+
+	#list {
+	    display: inline-block;
+	    width: 2rem;
+	    height: 2rem;
+	    border: 1px solid #e4e4e4;
+	    margin-top: 0;
+	    margin-right: 15px;
+	}
+
+	.chart .wrap {
+        width: 88%;
+		height: 18.06rem;
+		margin: 0 auto;
+	    background-image: url(林信首页/companyName.png),url(林信首页/资源%2012.png);
+        background-size: 37%,100%;
+		background-repeat: no-repeat;
+		background-position-y: 2rem,5rem;
+		background-position-x: 6rem,0rem;
+	}
+
+	.menu {
+	    width: 100%;
+    	height: 23rem;
+	}
+
+	.flexWrap {
+	    width: 19rem;
+		margin: auto;
+		background-color: transparent;
+		display: block;
+		text-align: center;
+	}
+
+	.flexWrap>div {
+		width: 9rem;
+	    height: 9rem;
+	    background-color: RGB(242,247,252);
+	    padding-top: 2rem;
+	    position: relative;
+        display: inline-block;
+		margin-top: 0.5rem;
+	}
+
+	.flexWrap div img {
+	    margin-left: 0;
+	}
+
+	.flexWrap div p:last-of-type {
+	    margin-top: 0.5rem;
+	}
+
+	.title span {
+	    margin-top: 0.5rem;
+	    display: inline-block;
+	}
+	
+}

@@ -7,6 +7,9 @@ var handle={
         this.adjust();
         this.toggle();
 
+        //事件绑定
+        this.showNav();
+
     },
     /*兼容性添加事件监听函数*/
     addEventHandler: function(element,event,handler){
@@ -30,8 +33,10 @@ var handle={
     },
     /*屏幕兼容*/
     adjust:function(){
+        var clientWidth = document.documentElement.clientWidth;
+        var fontSize = (18/1366)*(document.documentElement.clientWidth);
         document.getElementsByTagName("HTML")[0].style.fontSize=
-            (18/1366)*(document.documentElement.clientWidth)+"px";
+            (clientWidth<=768?16:fontSize)+"px";
     },
     /*显示*/
     show:function(e){
@@ -44,5 +49,20 @@ var handle={
         var event=e?e:window.event;
         var src= event.currentTarget;
         src.lastChild.style.display="none";
+    },
+
+    /*导航栏下拉*/
+    showNav:function(){
+        var showNavBtn = document.getElementById("list");
+        showNavBtn.addEventListener('click', function(){
+            var nav = document.getElementsByTagName("nav")[0];
+            var computedStyle = window.getComputedStyle(nav, "");
+            if(computedStyle.display == "none"){
+                nav.style.display="block";
+            }else {
+                nav.style.display="none";
+            }
+        });
+        
     }
 }
