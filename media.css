@@ -16,6 +16,7 @@
     	background-position: 1rem 0.5rem;
 	}
 
+	/*===========================导航栏==============================*/
 	nav {
 		display: none;
 		position: absolute;
@@ -42,6 +43,52 @@
         outline: none;
 	}
 
+	/*===========================底部模块==============================*/
+	#contactInformation {
+        width: 100%;
+   	 	text-align: center;
+	}
+
+	#contactInformation h6 {
+		font-size: 0.8rem;
+	}
+
+	#contactInformation p:nth-child(3), 
+	#contactInformation p:nth-last-child(1), 
+	#contactInformation p:nth-last-child(2), 
+	#contactInformation p:nth-last-child(3){
+		display: none;
+	}
+
+	#contactInformation p:nth-child(2),#contactInformation p:nth-child(4) {
+		display: inline-block;
+		font-size: 0.8rem;
+	    color: rgb(95,95,95);
+	}
+
+	#contactInformation p:nth-child(2) {
+	    padding-right: 1rem;
+	}
+
+	footer {
+	    background-color: #cccccc;
+	    color: #878787;
+	}
+
+	footer .wrap {
+	    background: url("");
+	    background-repeat: no-repeat;
+	}
+
+	footer p {
+	    font-size: 0.8rem;
+	    line-height: 1rem;
+	    padding: 0.6rem;
+	}
+
+	/*===========================首页==============================*/
+
+	/*menu模块*/
 	.chart .wrap {
         width: 88%;
 		height: 18.06rem;
@@ -84,14 +131,16 @@
 	    margin-top: 0.5rem;
 	}
 
+	/*title模块*/
 	.title span {
 	    margin-top: 0.5rem;
 	    display: inline-block;
         font-size: 1rem;
 	}
 
-	/*=========================================================*/
+	/*===========================tmp==============================*/
 
+	/*业务介绍模块*/
 	.businessIntroduction {
 	    height: 22rem;
 	}
@@ -125,6 +174,7 @@
 	    text-align: center;
 	}
 
+	/*公司简介模块*/
 	.companyProfile {
 	    height: 22rem;
 	}
@@ -145,46 +195,61 @@
 		display: none;
 	}
 
-	#contactInformation {
-        width: 100%;
-   	 	text-align: center;
-	}
-
-	#contactInformation h6 {
-		font-size: 0.8rem;
-	}
-
-	#contactInformation p:nth-child(3), 
-	#contactInformation p:nth-last-child(1), 
-	#contactInformation p:nth-last-child(2), 
-	#contactInformation p:nth-last-child(3){
+	/*===========================产品中心==============================*/
+	.statement {
 		display: none;
 	}
 
-	#contactInformation p:nth-child(2),#contactInformation p:nth-child(4) {
-		display: inline-block;
-		font-size: 0.8rem;
-	    color: rgb(95,95,95);
+	/*location模块*/
+	
+	.location {
+		background-color: #fcfcfc;
 	}
 
-	#contactInformation p:nth-child(2) {
-	    padding-right: 1rem;
+	.location .wrap p{
+		text-align: center;
+	    font-size: 1rem;
+	    font-weight: bold;
+        padding-top: 0.6rem;
 	}
 
-	footer {
-	    background-color: #cccccc;
-	    color: #878787;
+	.location .wrap span {
+		display: none;
 	}
 
-	footer .wrap {
-	    background: url("");
-	    background-repeat: no-repeat;
+	.product-item {
+        width: 100%;
+	    height: initial;
+	    padding-bottom: 1rem;
+	    min-height: 25rem;
 	}
 
-	footer p {
-	    font-size: 0.8rem;
-	    line-height: 1rem;
-	    padding: 0.6rem;
+	.product-item .wrap div:first-child, .product-item .wrap div:last-child {
+		position: static;
+	    left: 0;
+	    float: none;
+	    margin: 0 auto;
+	}
+
+	.product-item .wrap div:last-child {
+	    width: 90%;
+    	margin: auto;
+	}
+
+	.product-item p {
+		width: 100%;
+	}
+
+	.product-item .left h4, .product-item .right h4 {
+		width: 60%;
+	    margin: auto;
+	    margin-top: 2rem;
+	}
+
+	.product-item .left p, .product-item .right p {
+		width: 100%;
+		font-size: 0.7rem;
+		line-height: 1.3rem;
 	}
 		
 }

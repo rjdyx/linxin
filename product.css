@@ -8,6 +8,7 @@
     position: relative;top:0.53rem;}
 .symbol img{cursor: pointer;position: relative;top:1rem;}
 .symbol span img{top:-0.2rem;margin-left: 0.5rem}
+#list{display: none;}
 /*导航栏样式*/
 nav{background-color: RGB(28,134,120)}
 nav li{height: 2.41rem;width: 5.59rem;display: inline-block;list-style-type: none;

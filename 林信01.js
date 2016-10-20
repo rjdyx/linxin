@@ -25,10 +25,13 @@ var handle={
     },
     /*鼠标移入div显示隐藏信息,移出隐藏*/
     toggle:function(){
-        var divs=document.getElementsByClassName("flexWrap")[0].children;
-        for(var i=0;i<divs.length;i++){
-            handle.addEventHandler(divs[i],"mouseover",handle.show);
-            handle.addEventHandler(divs[i],"mouseout",handle.hidden)
+        var flexWrap = document.getElementsByClassName("flexWrap");
+        if(divs != undefined){
+            var divs = flexWrap[0].children;
+            for(var i=0;i<divs.length;i++){
+                handle.addEventHandler(divs[i],"mouseover",handle.show);
+                handle.addEventHandler(divs[i],"mouseout",handle.hidden)
+            }  
         }
     },
     /*屏幕兼容*/
@@ -54,15 +57,16 @@ var handle={
     /*导航栏下拉*/
     showNav:function(){
         var showNavBtn = document.getElementById("list");
-        showNavBtn.addEventListener('click', function(){
-            var nav = document.getElementsByTagName("nav")[0];
-            var computedStyle = window.getComputedStyle(nav, "");
-            if(computedStyle.display == "none"){
-                nav.style.display="block";
-            }else {
-                nav.style.display="none";
-            }
-        });
-        
+        if(showNavBtn != undefined){
+            showNavBtn.addEventListener('click', function(){
+                var nav = document.getElementsByTagName("nav")[0];
+                var computedStyle = window.getComputedStyle(nav, "");
+                if(computedStyle.display == "none"){
+                    nav.style.display="block";
+                }else {
+                    nav.style.display="none";
+                }
+            });
+        }        
     }
 }
