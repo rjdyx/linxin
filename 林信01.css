@@ -1,0 +1,79 @@
+*{margin: 0;padding: 0;box-sizing: border-box;-webkit-text-size-adjust:none;}
+/*容器居中*/
+.wrap{margin-left: auto;margin-right: auto;width: 47rem;vertical-align: middle}
+/*页眉样式*/
+.symbol{height: 3.82rem;background: url("林信首页/资源%209.png");
+    background-repeat: no-repeat;text-align: right;vertical-align: middle}
+.symbol span{outline: none;border: none;font-size: 0.53rem;color: RGB(144,195,189);
+    position: relative;top:0.53rem;}
+.symbol img{cursor: pointer;position: relative;top:1rem;}
+.symbol span img{top:-0.2rem;margin-left: 0.5rem}
+/*导航栏样式*/
+nav{background-color: RGB(28,134,120)}
+nav li{height: 2.41rem;width: 5.59rem;display: inline-block;list-style-type: none;
+    line-height: 2.41rem;text-align: center;color: white;font-size: 0.705rem}
+nav li:hover{background-color: RGB(25,107,93)}
+/*大图样式*/
+.chart{background: url("林信首页/资源%2012.png");background-size: 100% 100%}
+.chart .wrap{height: 18.06rem;}
+/*功能表格样式*/
+.flexWrap{width: 100%;background-color:white;display: flex;justify-content:space-between}
+.flexWrap>div{width: 11.23rem;height: 9.59rem;background-color: RGB(242,247,252);
+    padding-top: 2rem; position: relative}
+.flexWrap>div div{position: absolute;z-index: 2;width: 11.23rem;height: 12.88rem;background-color: RGBA(60,151,139,0.8);
+    bottom: 0;display: none}
+.menu{padding-top: 1.82rem;padding-bottom: 1.82rem;background-color: RGB(186,218,213)}
+.flexWrap div img{width: 3.235rem;height: 3.235rem;margin-left:3.62rem }
+.flexWrap div p{font-size: 0.588rem;color: RGB(82,144,135);text-align: center;
+    line-height: 0.882rem;height: 0.882rem}
+.flexWrap div p:first-of-type{margin-top: 1.176rem}
+.flexWrap div p:last-of-type{color: RGB(131,134,134)}
+/*产品和方案*/
+.title{text-align: center;padding-top: 1.35rem;padding-bottom: 1.35rem}
+.title p{font-size: 1.47rem;font-weight: bold}
+.title span{font-size: 0.47rem;color: RGB(198,198,198)}
+/*业务介绍*/
+.businessIntroduction{background-color: RGB(247,247,247);height: 13.06rem;
+    vertical-align: middle;padding-top: 2.06rem;}
+.businessIntroduction .left{background:url("林信首页/资源%205.png");height: 8.235rem;width: 12.35rem;
+    float: left;background-size: 100% 100%;position: relative;left: 3.7rem;}
+.businessIntroduction .right{width: 27.35rem;float: right;margin-top: 2.35rem}
+.businessIntroduction h4{font-size: 1rem;color: RGB(65,132,121)}
+.businessIntroduction p{font-size: 0.588rem;color: RGB(130,130,130)}
+/*公司简介*/
+.companyProfile{background-color: white;height: 13.06rem;
+    vertical-align: middle;padding-top: 2.06rem;}
+.companyProfile .right{background:url("林信首页/资源%206.png");height: 8.235rem;width: 12.35rem;
+    float: right;background-size: 100% 100%;position: relative;right: 3.7rem;}
+.companyProfile .left{width: 27.35rem;float: left;margin-top: 2.35rem}
+.companyProfile h4{font-size: 1rem;color: RGB(65,132,121)}
+.companyProfile p{font-size: 0.588rem;color: RGB(130,130,130)}
+/*公司要闻*/
+.technicalSupport{background-color: RGB(247,247,247);height: 13.06rem;
+    vertical-align: middle;padding-top: 2.06rem;}
+.technicalSupport .left{background:url("林信首页/资源%207.png");height: 8.235rem;width: 12.35rem;
+    float: left;background-size: 100% 100%;position: relative;left: 3.7rem;}
+.technicalSupport .right{width: 27.35rem;float: right;position: relative}
+.technicalSupport h4{font-size: 1rem;color: RGB(65,132,121)}
+.technicalSupport li span{float: right}
+.news{margin-top: 0.59rem;border-top: 1px dashed RGB(107,182,148)}
+.technicalSupport li{list-style: none;height: 2rem;line-height: 2rem;font-size: 0.471rem;
+    color: RGB(95,95,139);border-bottom: 1px dashed RGB(107,182,148);text-indent: 1.413rem;
+    position: relative}
+.technicalSupport li div{position: absolute;left: 0;width: 0.353rem;height: 0.353rem;background-color: red;
+    top:0.765rem}
+.technicalSupport li a{cursor: pointer}
+#more{position: absolute;right: 0;top: 1.176rem;width: 2.353rem;height: 0.882rem;
+    background: url("林信首页/资源%208.png");background-size: 100% 100%;cursor: pointer}
+/*有关信息*/
+.information{margin-top: 1.53rem;background-color: RGB(204,204,204);padding-top: 1rem;
+    padding-bottom: 1rem}
+.information .wrap{vertical-align: top}
+.information .wrap div{display: inline-block;vertical-align: top}
+.information h6{font-size: 0.706rem;color:RGB(95,95,95);line-height: 1.41rem}
+.information p{font-size: 0.59rem;color: RGB(135,135,135);line-height: 1rem;}
+#cooperateCompany,#contactInformation{width: 19.47rem}
+/*页脚*/
+footer p{text-align: center;font-size: 0.588rem;line-height: 3.176rem}
+footer{background-color: RGB(179,179,179)}
+footer .wrap{background: url("林信首页/资源%2013.png");background-repeat: no-repeat}

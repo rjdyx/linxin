@@ -1,0 +1,77 @@
+*{margin: 0;padding: 0;box-sizing: border-box;-webkit-text-size-adjust:none;}
+/*容器居中*/
+.wrap{margin-left: auto;margin-right: auto;width: 47rem;vertical-align: middle}
+/*页眉样式*/
+.symbol{height: 3.82rem;background: url("林信首页/资源%209.png");
+    background-repeat: no-repeat;text-align: right;vertical-align: middle}
+.symbol span{outline: none;border: none;font-size: 0.53rem;color: RGB(144,195,189);
+    position: relative;top:0.53rem;}
+.symbol img{cursor: pointer;position: relative;top:1rem;}
+.symbol span img{top:-0.2rem;margin-left: 0.5rem}
+/*导航栏样式*/
+nav{background-color: RGB(28,134,120)}
+nav li{height: 2.41rem;width: 5.59rem;display: inline-block;list-style-type: none;
+    line-height: 2.41rem;text-align: center;color: white;font-size: 0.705rem}
+nav li:hover{background-color: RGB(25,107,93)}
+/*文字说明*/
+.statement{height: 6.24rem;background-color: RGB(146,224,210);padding-top: 1.353rem}
+.statement p{font-size: 1.118rem;line-height: 1.53rem;color: RGB(42,119,105)}
+.statement p:last-of-type{text-indent: 4.47rem}
+/*当前位置*/
+.location .wrap{height: 2.59rem;border-bottom: 1px solid RGB(232,232,232)}
+.location .wrap p{padding-top: 1.117rem;color: RGB(91,91,91);font-size: 0.882rem}
+.location .wrap p span{float: right;font-size: 0.53rem}
+.location .wrap p a{cursor: pointer}
+/*检测预警平台*/
+.warningPlatform{height: 15.06rem;vertical-align: middle;padding-top: 3.176rem;}
+.warningPlatform .left{background:url("林信首页/资源%205.png");height: 8.235rem;width: 12.35rem;
+    float: left;background-size: 100% 100%;position: relative;left: 3.7rem;}
+.warningPlatform .right{width: 27.35rem;float: right;}
+.warningPlatform h4{font-size: 1rem;color: RGB(65,132,121)}
+.warningPlatform p{font-size: 0.588rem;color: RGB(130,130,130);margin-top: 1rem;
+    line-height: 1rem}
+/*多平台融合*/
+.multiPlatform{background-color: RGB(243,243,243);height: 13.29rem;
+    vertical-align: middle;padding-top: 4.06rem;}
+.multiPlatform .right{background:url("林信首页/资源%205.png");height: 8.235rem;width: 12.35rem;
+    float: right;background-size: 100% 100%;position: relative;right: 3.7rem;}
+.multiPlatform .left{width: 27.35rem;float: left;}
+.multiPlatform h4{font-size: 1rem;color: RGB(65,132,121)}
+.multiPlatform p{font-size: 0.588rem;color: RGB(130,130,130);margin-top: 1rem;
+    line-height: 1rem}
+/*准确率更可靠*/
+.reliableMonitoring{height: 14.12rem;vertical-align: middle;padding-top: 4.118rem;}
+.reliableMonitoring .left{background:url("林信首页/资源%205.png");height: 8.235rem;width: 12.35rem;
+    float: left;background-size: 100% 100%;position: relative;left: 3.7rem;}
+.reliableMonitoring .right{width: 27.35rem;float: right;}
+.reliableMonitoring h4{font-size: 1rem;color: RGB(65,132,121);margin-top: 1rem;}
+.reliableMonitoring p{font-size: 0.588rem;color: RGB(130,130,130);margin-top: 1rem;
+    line-height: 1rem}
+/*网络传输更安全*/
+.netWork{background-color: RGB(243,243,243);height: 12.94rem;
+    vertical-align: middle;padding-top: 2rem;}
+.netWork .right{background:url("林信首页/资源%205.png");height: 8.235rem;width: 12.35rem;
+    float: right;background-size: 100% 100%;position: relative;right: 3.7rem;}
+.netWork .left{width: 27.35rem;float: left;}
+.netWork h4{font-size: 1rem;color: RGB(65,132,121);margin-top: 1.588rem;}
+.netWork p{font-size: 0.588rem;color: RGB(130,130,130);margin-top: 1rem;
+    line-height: 1rem}
+/*智能分析*/
+.analysis{height: 13.29rem;vertical-align: middle;padding-top: 3.118rem;}
+.analysis .left{background:url("林信首页/资源%205.png");height: 8.235rem;width: 12.35rem;
+    float: left;background-size: 100% 100%;position: relative;left: 3.7rem;}
+.analysis .right{width: 27.35rem;float: right;}
+.analysis h4{font-size: 1rem;color: RGB(65,132,121);margin-top: 1rem;}
+.analysis p{font-size: 0.588rem;color: RGB(130,130,130);margin-top: 1rem;
+    line-height: 1rem}
+/*有关信息*/
+.information{background-color: RGB(204,204,204);padding-top: 1rem;padding-bottom: 1rem}
+.information .wrap{vertical-align: top}
+.information .wrap div{display: inline-block;vertical-align: top}
+.information h6{font-size: 0.706rem;color:RGB(95,95,95);line-height: 1.41rem}
+.information p{font-size: 0.59rem;color: RGB(135,135,135);line-height: 1rem;}
+#cooperateCompany,#contactInformation{width: 19.47rem}
+/*页脚*/
+footer p{text-align: center;font-size: 0.588rem;line-height: 3.176rem}
+footer{background-color: RGB(179,179,179)}
+footer .wrap{background: url("林信首页/资源%2013.png");background-repeat: no-repeat}
